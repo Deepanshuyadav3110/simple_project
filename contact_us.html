@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                  *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: #000000;
+        }
+        nav{
+            border-bottom: 0.4vw solid red;
+        }
+        ul{
+            background-color:#161516;
+            text-align: center;
+            font-size:4vw;
+        }
+        ul li{
+           list-style-type:none;
+           display:inline-block;
+        }
+        ul li a{
+            text-decoration:none;
+            padding:5vw;
+            color:white;
+            
+        }
+        ul li a:hover{
+            color:#ff0000;
+        }
+        ul li a:active{
+            color:rgb(0, 255, 89);
+        }
+        .form{
+            color:white;
+            border:0.4vw solid red;
+            margin-top:3vw;
+            padding:2vw;
+            background-color:#161516;
+            width:50%;
+           margin-left:30%;
+           font-size:4vw;
+        }
+        h1{
+            font-size:5vw;
+            text-decoration:underline white;
+        }
+        span{
+            color:red;
+        }
+        .btn{
+            font-size:5vw;
+            text-align: center;
+            margin-left:30%;
+            text-transform: uppercase;
+            border:0.4vw solid white;
+            padding:0.3vw;
+
+        }
+        button:hover{
+            background-color: red;
+        }
+        input{
+            height:4vw;
+        }
+        :placeholder-shown{
+            font-size:2vw;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="form">
+        <form>
+            <h1>Fill <span>the</span> information</h1>
+            <div>
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" placeholder="name">
+            </div>
+            <div>
+                <label for="mobile number">Mobile Number:</label>
+                <br>
+                <input type="number" placeholder="+91">
+            </div>
+            <div>
+                <label for="Country">Country:</label>
+                <br>
+                <input type="text" placeholder="India">
+            </div>
+            <div>
+                <label for="pincode">Pincode:</label>
+                <br>
+                <input type="number" placeholder="123027">
+            </div>
+            <div>
+                <label for="car name">CAR name:</label>
+                <br>
+                <input type="text" placeholder="BMW">
+            </div>
+            <div>
+                <label for="Address">Address:</label>
+                <br>
+                <input type="text" placeholder="countery-India, State Haryana, Dist:Mahendergarh">
+            </div>
+            <div>
+                <label for="mail">EMAIL Address</label>
+                <br>
+                <input type="text" placeholder="example@gamil.com">
+            </div>
+            <div>
+                Review Corner:<br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
